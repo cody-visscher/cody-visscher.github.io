@@ -1,6 +1,5 @@
 :root {
     --darkgray: #212329;
-    --darkblue: #F9423D;
     --white: #ffffff;
     --lightblue: #007BFF;
     --darkblue: #026ad9;
@@ -91,6 +90,57 @@
 
 #logo-last {
     color: var(--white);
+}
+
+.projects-container {
+    display: flex;
+    width: 90%;
+    margin-top: 175px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.projects-body {
+    display: block;
+}
+
+.projects-image {
+    width: 400px;
+    margin-left: 48%;
+    justify-content: center;
+    align-items: center;
+}
+
+#secure-vault-img1 {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#bottom-container {
+    margin-top: 100px;
+    margin-bottom: 250px;
+}
+
+.projects-link {
+    text-decoration: none;
+}
+
+.projects-link:active {
+    color: var(--lightblue);
+}
+
+.projects-link:visited {
+    color: var(--darkblue);
+}
+
+.projects-header {
+    color: var(--lightblue);
+    font-size: 40px;
+}
+
+.projects-text {
+    color: var(--white);
+    font-size: 20px;
 }
 
 @media screen and (max-width: 768px) {

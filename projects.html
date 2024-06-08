@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="projects.css">
 </head>
 <body>
     <div class="nav-container">
@@ -25,6 +25,41 @@
                 <li><a href="contact.html" class="nav-links nav-links-btn">Contact</a></li>
             </ul>
         </nav>
+    </div>
+
+    <div class="projects-container" id="top-container">
+        <div class="projects-body">
+            <h1 class="projects-header" id="secure-vault">
+                Secure Vault
+            </h1>
+            <p class="projects-text">
+                During one of my courses at Grand Valley State University, we were tasked with writing a program that
+                does something useful in terms of cryptography. We were offered a couple examples, such as an 
+                encrypted group chat or password manager.<br><br>
+                The idea for this project somewhat piggybacks on the idea of password managers, in the sense that
+                a password manager is intended to encrypt data, store it somewhere, and then make that data 
+                visible to you once you have input your password. I took this concept, and applied it to a known
+                issue that people have on their computers, which is keeping sensitive files in plaintext.<br><br>
+                With this application, I have come up with a solution to this problem, where you can select certain
+                files on your computer to be encrypted using a key generated with PBKDF2 key derivation 
+                and ChaCha20Poly1305 encryption. This application is written in Python and utilizes the cryptography
+                module for all cryptographic operations. You can find the standalone executable and source code 
+                <a href="https://github.com/cody-visscher/securevault" target="_blank" class="projects-link">here</a>.
+            </p>
+        </div>
+        <img src="Pictures/securevault2.png" alt="Secure Vault Login" class="projects-image" id="secure-vault-img1">
+    </div>
+
+    <div class="projects-container" id="bottom-container">
+        <div class="projects-body">
+            <h1 class="projects-header" id="this-website">This Website</h1>
+            <p class="projects-text">
+                Thats right, this website is one of my projects! I decided that building a website would be a worthwhile
+                project to increase my skills in a variety of areas including web design, HTML, CSS, and JavaScript.<br><br>
+                I also used this project as a way to improve my networking ability. To be able to host this project
+                successfully, I had to familiarize myself with acquiring a domain, creating DNS records, and much more.
+            </p>
+        </div>
     </div>
     
     <script src="app.js"></script>
