@@ -295,10 +295,19 @@
         top: 0;
     }
 
+    #picas-image {
+        display: none;
+    }
+
+    #gvsu-image {
+        display: none;
+    }
+
     .skills-bundle {
         display: grid;
         grid-template-columns: auto;
-        margin-right: 20px;
+        margin: 0;
+        width: 90%;
     }
 
     .skills-heading {
@@ -309,6 +318,11 @@
         display: grid;
         grid-template-columns: auto;
         margin-bottom: 0;
+    }
+
+    .jobs-description {
+        width: 90%;
+        margin: 0;
     }
 
     .jobs-heading {
