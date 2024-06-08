@@ -3,6 +3,7 @@
     --white: #ffffff;
     --lightblue: #007BFF;
     --darkblue: #026ad9;
+    --extrablue: #2590e3;
 }
 
 * {
@@ -128,11 +129,11 @@
 }
 
 .projects-link:active {
-    color: var(--lightblue);
+    color: var(--extrablue);
 }
 
 .projects-link:visited {
-    color: var(--darkblue);
+    color: var(--extrablue);
 }
 
 .projects-header {
