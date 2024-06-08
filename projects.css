@@ -51,6 +51,7 @@
 
 .nav-links {
     color: white;
+    font-size: 24px;
     text-decoration: none;
 }
 
@@ -105,7 +106,8 @@
 }
 
 .projects-image {
-    width: 400px;
+    max-width: 400px;
+    max-height: 432px;
     margin-left: 48%;
     justify-content: center;
     align-items: center;
