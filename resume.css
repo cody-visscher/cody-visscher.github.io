@@ -307,7 +307,8 @@
     .skills-bundle {
         display: grid;
         grid-template-columns: auto;
-        margin: 0;
+        margin-left: 15px;
+        margin-right: auto;
         width: 90%;
     }
 
@@ -315,9 +316,15 @@
         font-size: 20px;
     }
 
+    .slills-image {
+        width: auto;
+    }
+
     .areas-container {
         display: grid;
         grid-template-columns: auto;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 0;
     }
 
