@@ -1,0 +1,19 @@
+.contact-container {
+  display: block;
+  margin-top: 200px;
+  margin-left: 25%;
+  margin-right: 25%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.contact-container h1 {
+  font-size: 40px;
+  color: var(--darkblue);
+}
+
+.contact-container p {
+  font-size: 24px;
+  color: var(--white);
+}
